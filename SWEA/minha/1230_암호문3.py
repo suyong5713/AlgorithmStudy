@@ -1,44 +1,29 @@
-N = int(input())
-original = ''.join(map(str, input().split()))
+T = 10
 
-M = int(input())
-command = list(input().split())
+for test_case in range(1, T + 1):
+    N = int(input())
+    original = list(map(str, input().split()))
 
-def insert(x, s):
-    b = original[:x]
-    n = ''.join(s)
-    a = original[x:]
-    return b + n + a
+    M = int(input())
+    command = list(input().split())
 
-def delete(x, y):
-    b = original[:x]
-    a = original[x+y:]
-    return b + a
+    for i in range(len(command)):
+        if command[i] == 'I':
+            x = int(command[i + 1])
+            y = int(command[i + 2])
+            s = command[i+3:i+3+y]
+            for j in range(y) :
+                original.insert(x+j, s[j])
+        elif command[i][0] == 'D':
+            x = int(command[i + 1])
+            y = int(command[i + 2])
+            for j in range(y):
+                del(original[x])
+        elif command[i][0] == 'A':
+            y = int(command[i + 1])
+            s = command[i+2:i+2+y]
+            for j in range(y):
+                original.append(s[j])
 
-def append(s):
-    n = ''.join(s)
-    return original + n
-
-for i in range(len(command)):
-    if command[i] == 'I':
-        x = int(command[i + 1])
-        y = int(command[i + 2])
-        s = command[i + 3:i + 3 + y]
-        original = insert(x, s)
-        print(original[:61])
-    elif command[i] == 'D':
-        x = int(command[i + 1])
-        y = int(command[i + 2])
-        original = delete(x, y)
-        print(original[:61])
-    elif command[i] == 'A':
-        y = int(command[i + 1])
-        s = command[i + 2:i + 2 + y]
-        original = append(s)
-        print(original[:61])
-    else:
-        continue
-
-result = [original[i:i+6] for i in range(0, len(original), 6)]
-changed = " ".join(result[:10])
-print(changed)
+    result = ' '.join(original[:10])
+    print("#{} {}".format(test_case, result))
