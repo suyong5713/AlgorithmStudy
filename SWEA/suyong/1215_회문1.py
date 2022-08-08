@@ -19,13 +19,3 @@ for tc in range(10):
         tempString = ''.join(string)
         result += palindrome(tempString)
     print("#{} {}".format(tc+1,result))
-    
-# 4
-# CBBCBAAB
-# CCCBABCB
-# CAAAACAB
-# BACCCCAC
-# AABCBBAC
-# ACAACABC
-# BCCBAABC
-# ABBBCCAA

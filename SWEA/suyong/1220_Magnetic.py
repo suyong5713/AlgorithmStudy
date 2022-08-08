@@ -21,12 +21,3 @@ for tc in range(10):
                 colString += i
         result += colString.count('12')
     print("#{} {}".format(tc+1, result))
-
-# 7
-# 1 0 2 0 1 0 1
-# 0 2 0 0 0 0 0
-# 0 0 1 0 0 1 0
-# 0 0 0 0 1 2 2
-# 0 0 0 0 0 1 0
-# 0 0 2 1 0 2 1
-# 0 0 1 2 2 0 2
