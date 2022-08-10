@@ -2,9 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="299d2f9d-6765-4857-9b0b-db33e52e4901" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/SWEA/minha/1240_단순2진암호코드.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/SWEA/minha/comment/0816.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SWEA/minha/10726_이진수표현.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/SWEA/minha/comment/0816.md" beforeDir="false" afterPath="$PROJECT_DIR$/SWEA/minha/comment/0816.md" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
