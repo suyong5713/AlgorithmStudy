@@ -2,8 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="299d2f9d-6765-4857-9b0b-db33e52e4901" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/Baekjoon/minha/14889_스타트와링크.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Baekjoon/minha/comment/0809.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SWEA/minha/1240_단순2진암호코드.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SWEA/minha/comment/0816.md" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
