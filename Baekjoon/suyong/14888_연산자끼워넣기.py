@@ -1,4 +1,4 @@
-def perm(operator,opCount,subOp):
+def comb(operator,opCount,subOp):
   global max_result, min_result
   #더이상 남은 연산자가 없을 때
   if opCount == 0:
@@ -22,7 +22,7 @@ def perm(operator,opCount,subOp):
       operator[i] -= 1
       subOp.append(i)
       #남은 연산자, 남은 연산자 개수, 현재 선택한 연산자
-      perm(operator,opCount-1,subOp)
+      comb(operator,opCount-1,subOp)
       #i번째 연산자 선택 해제
       #backtracking
       operator[i] += 1
@@ -30,11 +30,11 @@ def perm(operator,opCount,subOp):
   return
 
 
-max_result, min_result = -(10**10),10**10
+max_result, min_result = float("-inf"),float("inf")
 N = int(input())
 subOp = []
 numbers = list(map(int,input().split()))
 operator = list(map(int,input().split()))
-perm(operator,sum(operator),subOp)
+comb(operator,sum(operator),subOp)
 print(max_result)
 print(min_result)
