@@ -48,7 +48,7 @@ def dfs(node,depth,end):
   return
 N = int(input())
 min_value = float("inf")
-population = list(map(int,input().split())).insert(0,0)
+population = list(map(int,input().split()))
 population.insert(0,0)
 graph = [list(map(int,input().split()))[1:] for _ in range(N)]
 graph.insert(0,[])
