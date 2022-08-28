@@ -66,6 +66,7 @@ def DFS(gg, arr, stage):
         # 다음 게이트 수행
         DFS(gg,arr[:],stage+1)
 
+
 t = int(input())
 for test in range(1,t+1):
     # init
