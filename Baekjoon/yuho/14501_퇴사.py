@@ -1,9 +1,10 @@
 # DFS 수행
 def consulting(idx,benefit):
     global res
-    if idx == n and res < benefit:
-        res = benefit
-        return
+    if idx >= n:
+        if idx == n and res < benefit:
+            res = benefit
+            return
     consulting(idx+consult[idx][0], benefit+consult[idx][1])
     consulting(idx+1,benefit)
 
