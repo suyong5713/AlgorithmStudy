@@ -3,6 +3,7 @@
   <component name="ProjectModuleManager">
     <modules>
       <module fileurl="file://$PROJECT_DIR$/.idea/AlgorithmStudy.iml" filepath="$PROJECT_DIR$/.idea/AlgorithmStudy.iml" />
+      <module fileurl="file://$PROJECT_DIR$/../study/algorithm-python/.idea/algorithm-python.iml" filepath="$PROJECT_DIR$/../study/algorithm-python/.idea/algorithm-python.iml" />
       <module fileurl="file://$PROJECT_DIR$/../ssafy/ssafy_algorithm/.idea/ssafy_algorithm.iml" filepath="$PROJECT_DIR$/../ssafy/ssafy_algorithm/.idea/ssafy_algorithm.iml" />
     </modules>
   </component>
