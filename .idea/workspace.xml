@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="299d2f9d-6765-4857-9b0b-db33e52e4901" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/Baekjoon/minha/23288_주사위굴리기2.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Baekjoon/minha/21611_마법사상어와블리자드.py" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/../ssafy/ssafy_algorithm/swea/2115_벌꿀채취.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
@@ -51,7 +51,7 @@
       <recent name="$PROJECT_DIR$/SWEA/minha" />
     </key>
   </component>
-  <component name="RunManager" selected="Python.23288_주사위굴리기2">
+  <component name="RunManager" selected="Python.21611_마법사상어와블리자드">
     <configuration name="메뉴리뉴얼" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="AlgorithmStudy" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -115,7 +115,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="16234_인구이동1" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+    <configuration name="21611_마법사상어와블리자드" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="AlgorithmStudy" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -127,7 +127,7 @@
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Baekjoon/minha/16234_인구이동1.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Baekjoon/minha/21611_마법사상어와블리자드.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -180,11 +180,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.21611_마법사상어와블리자드" />
         <item itemvalue="Python.23288_주사위굴리기2" />
         <item itemvalue="Python.메뉴리뉴얼" />
         <item itemvalue="Python.1245_균형점" />
         <item itemvalue="Python.16234_인구이동" />
-        <item itemvalue="Python.16234_인구이동1" />
       </list>
     </recent_temporary>
   </component>
