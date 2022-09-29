@@ -1,5 +1,6 @@
 from collections import deque
 
+# east, west, south, north -> 주사위 전개도 바꾸는 함수
 def east():
     dice[1][2], dice[3][1] = dice[3][1], dice[1][2]
     end = dice[1][2]
@@ -27,6 +28,7 @@ def north():
         dice[i][1] = dice[i+1][1]
     dice[3][1] = end
 
+# bfs 탐색으로 같은 값을 가진 좌표의 갯수 리턴
 def bfs(y, x):
     q = deque()
     q.append((y, x))
@@ -62,20 +64,24 @@ cy, cx = 0, 0
 # 동 -> 남 -> 서 -> 북 : 처음에 동쪽, 시계 방향
 dy = [0, 1, 0, -1]
 dx = [1, 0, -1, 0]
+# 현재 방향
 curd = 0
 
 score = 0
 
 for _ in range(K):
+    # 다음 위치가 범위를 벗어날 경우 반대 방향으로 바꿔주기
     if not(0 <= cy + dy[curd] < N and 0 <= cx + dx[curd] < M):
         if curd < 2:
             curd += 2
         else:
             curd -= 2
 
+    # 다음 위치 갱신
     cy += dy[curd]
     cx += dx[curd]
 
+    # 주사위 전개도 바꿔주기
     if curd == 0:
         east()
     elif curd == 1:
@@ -85,13 +91,16 @@ for _ in range(K):
     else:
         north()
 
+    # B는 해당 위치의 값, C는 값이 같아 연속해서 이동할 수 있는 칸의 수
     B = graph[cy][cx]
     C = bfs(cy, cx)
-
+    # 점수 더해주기
     score += (B * C)
 
+    # A는 주사위 아랫면의 숫자
     A = dice[3][1]
 
+    # 숫자 비교해서 이동 방향 갱신
     if A > B:
         if curd < 3:
             curd += 1

@@ -2,9 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="299d2f9d-6765-4857-9b0b-db33e52e4901" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/Baekjoon/minha/21611_마법사상어와블리자드.py" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/../ssafy/ssafy_algorithm/swea/2115_벌꿀채취.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Baekjoon/minha/23288_주사위굴리기2.py" beforeDir="false" afterPath="$PROJECT_DIR$/Baekjoon/minha/23288_주사위굴리기2.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
