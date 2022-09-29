@@ -4,14 +4,6 @@ import math
 # 해당 팀의 총 능력치 반환
 # 같은 팀 내에서 두 선수 씩 짝지어지는 경우의 수를 구하여 능력치 계산
 def calc_sum(case):
-    # 1) combinations 없이 구현
-    # sum = 0
-    # l = len(case)
-    # for i in range(l):
-    #     for j in range(i+1,l):
-    #         sum += (arr[case[i]][case[j]] + arr[case[j]][case[i]])
-
-    # 2) combinations 사용하여 구현
     for i,j in list(combinations(case,2)):
         sum += (arr[i][j] + arr[j][i])
     return sum
