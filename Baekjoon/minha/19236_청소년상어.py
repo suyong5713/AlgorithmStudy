@@ -55,7 +55,7 @@ def dfs(sy, sx, score, cgraph):
     global answer
 
     # 각각의 가능한 경우에 재귀 돌기 위해 딥카피
-    cgraph = copy.deepcopy(cgraph)
+    cgraph = [[a[:] for a in b[:]] for b in cgraph]
 
     # 물고기 번호 합 갱신하고 잡아먹힌 물고기 자리의 값 0으로 바꾸기
     score += cgraph[sy][sx][0]
