@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="299d2f9d-6765-4857-9b0b-db33e52e4901" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/Baekjoon/minha/3190_뱀.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Baekjoon/minha/14499_주사위굴리기.py" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/../ssafy/ssafy_algorithm/swea/2115_벌꿀채취.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
@@ -51,8 +51,8 @@
       <recent name="$PROJECT_DIR$/SWEA/minha" />
     </key>
   </component>
-  <component name="RunManager" selected="Python.3190_뱀">
-    <configuration name="14500_테트로미노" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="Python.14499_주사위굴리기">
+    <configuration name="14499_주사위굴리기" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="AlgorithmStudy" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -64,7 +64,7 @@
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Baekjoon/minha/14500_테트로미노.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Baekjoon/minha/14499_주사위굴리기.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -159,11 +159,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.14499_주사위굴리기" />
         <item itemvalue="Python.3190_뱀" />
         <item itemvalue="Python.20055_컨베이어벨트위의로봇" />
         <item itemvalue="Python.19236_청소년상어" />
         <item itemvalue="Python.16236_아기상어" />
-        <item itemvalue="Python.14500_테트로미노" />
       </list>
     </recent_temporary>
   </component>
