@@ -2,8 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="299d2f9d-6765-4857-9b0b-db33e52e4901" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/Baekjoon/minha/20056_마법사상어와파이어볼.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../study/algorithm-python/17136_색종이붙이기.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Baekjoon/minha/8980_택배.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -53,7 +52,7 @@
       <recent name="$PROJECT_DIR$/SWEA/minha" />
     </key>
   </component>
-  <component name="RunManager" selected="Python.17136_색종이붙이기">
+  <component name="RunManager" selected="Python.8980_택배">
     <configuration name="1062_가르침" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="AlgorithmStudy" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -138,7 +137,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="3980_선발명단" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+    <configuration name="8980_택배" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="AlgorithmStudy" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -150,7 +149,7 @@
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Baekjoon/minha/3980_선발명단.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Baekjoon/minha/8980_택배.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -161,11 +160,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.8980_택배" />
         <item itemvalue="Python.17136_색종이붙이기" />
         <item itemvalue="Python.20056_마법사상어와파이어볼" />
         <item itemvalue="Python.1062_가르침" />
         <item itemvalue="Python.18428_감시피하기" />
-        <item itemvalue="Python.3980_선발명단" />
       </list>
     </recent_temporary>
   </component>
