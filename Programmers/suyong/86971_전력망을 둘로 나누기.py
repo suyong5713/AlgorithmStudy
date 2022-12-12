@@ -20,7 +20,7 @@ def solution(n, wires):
                     stack.append(wire[0])
                     visited[wire[0]] = True
         group1 = visited.count(True)
-        group2 = n - visited.count(True)
+        group2 = n - group1
         min_value = min(min_value, abs(group1 - group2))
     answer = min_value
     return answer
