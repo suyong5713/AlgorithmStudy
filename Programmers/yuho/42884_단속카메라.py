@@ -1,5 +1,6 @@
 def solution(routes):
     answer = 0
+    # cctv 초기 위치
     cctv = -30000
     # 나간 지점이 작은 순으로 정렬
     routes.sort(key=lambda arr: arr[1])
