@@ -1,6 +1,6 @@
 def solution(number, k):
     global arr, l, res
-    # number 리스트 형태로
+
     arr = list(map(int, list(number)))
     # 주어진 number 길이
     l = len(arr)
