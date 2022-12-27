@@ -15,3 +15,5 @@ def solution(n, times):
             left = mid + 1
 
     return left
+
+print(solution(6, [7, 10]))
