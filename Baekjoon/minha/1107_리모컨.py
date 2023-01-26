@@ -5,10 +5,7 @@ answer = abs(N - 100)
 if M != 0:
     broken = list(input().split())
 
-    for target in range(1000000):
-        if target // 2 > N:
-            break
-
+    for target in range(1_000_000):
         flag = True
         for t in str(target):
             if t in broken:
@@ -17,6 +14,13 @@ if M != 0:
 
         if flag:
             answer = min(answer, abs(N - target) + len(str(target)))
+
+        # for target in range(1_000_000):
+        #     for t in str(target):
+        #         if t in broken:
+        #             break
+        #     else:
+        #         answer = min(answer, abs(N - target) + len(str(target)))
 
     print(answer)
 
