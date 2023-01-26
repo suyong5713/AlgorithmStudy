@@ -2,8 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="299d2f9d-6765-4857-9b0b-db33e52e4901" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/Baekjoon/minha/1107_리모컨.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Baekjoon/minha/16928_뱀과사다리게임.py" beforeDir="false" afterPath="$PROJECT_DIR$/Baekjoon/minha/16928_뱀과사다리게임.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -53,7 +53,7 @@
       <recent name="$PROJECT_DIR$/../ssafy/ssafy_algorithm/practice" />
     </key>
   </component>
-  <component name="RunManager" selected="Python.1107_리모컨">
+  <component name="RunManager" selected="Python.16928_뱀과사다리게임">
     <configuration name="1107_리모컨" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="AlgorithmStudy" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -161,8 +161,8 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Python.1107_리모컨" />
         <item itemvalue="Python.16928_뱀과사다리게임" />
+        <item itemvalue="Python.1107_리모컨" />
         <item itemvalue="Python.7569_토마토" />
         <item itemvalue="Python.1194_달이차오른다가자" />
         <item itemvalue="Python.22115_창영이와커피" />
