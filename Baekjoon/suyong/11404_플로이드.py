@@ -10,7 +10,6 @@ for k in range(1, n + 1):
     for i in range(1, n + 1):
         for j in range(1, n + 1):
             if i == j:
-                cost[i][j] = 0
                 continue
             # i -> j or i -> k -> j 중 가장 저렴한 경우를 저장
             cost[i][j] = min(cost[i][j], cost[i][k] + cost[k][j])
