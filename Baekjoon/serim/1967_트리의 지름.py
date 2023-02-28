@@ -1,3 +1,6 @@
+import sys
+sys.setrecursionlimit(10**6)
+
 def dfs(child, weight):
     global result
     left, right = 0, 0
