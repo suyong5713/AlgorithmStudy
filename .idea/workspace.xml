@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="299d2f9d-6765-4857-9b0b-db33e52e4901" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/Baekjoon/minha/17142_연구소3.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Baekjoon/minha/1987_알파벳.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -53,7 +53,7 @@
       <recent name="$PROJECT_DIR$/../ssafy/ssafy_algorithm/practice" />
     </key>
   </component>
-  <component name="RunManager" selected="Python.17142_연구소3">
+  <component name="RunManager" selected="Python.1987_알파벳">
     <configuration name="1520_내리막길" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="algorithm-python" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -138,7 +138,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="9251_LCS" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+    <configuration name="1987_알파벳" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="AlgorithmStudy" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -150,7 +150,7 @@
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Baekjoon/minha/9251_LCS.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Baekjoon/minha/1987_알파벳.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -161,11 +161,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.1987_알파벳" />
         <item itemvalue="Python.17142_연구소3" />
         <item itemvalue="Python.1967_트리의지름" />
         <item itemvalue="Python.1520_내리막길" />
         <item itemvalue="Python.15686_치킨배달" />
-        <item itemvalue="Python.9251_LCS" />
       </list>
     </recent_temporary>
   </component>
