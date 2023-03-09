@@ -11,20 +11,11 @@ dx = [0, 1, 0, -1]
 
 def bfs(n, m, board):
     time = 0
-    cheese_cnt = 0
     queue = deque()
-    
-    for i in range(n):
-        for j in range(m):
-            if board[i][j] == CHEESE:
-                cheese_cnt += 1
 
     while True:
-        # 치즈가 모두 녹아버린 경우
-        if cheese_cnt == 0:
-            return time
-        
-        time += 1
+        # 이번 time에서 치즈를 녹인 개수
+        cnt = 0
 
         # 가장자리부터 공기를 확산시킴
         queue.append((0, 0))
@@ -48,7 +39,13 @@ def bfs(n, m, board):
                         # 치즈가 녹는 조건에 부합하는 경우
                         if visited[y][x] == 2:
                             board[y][x] = EMPTY
-                            cheese_cnt -= 1
+                            cnt += 1
+        
+        # 녹일 수 있는 치즈가 더 이상 없는 경우
+        if cnt == 0:
+            return time
+        
+        time += 1
                   
 n, m = map(int, input().split())
 board = [list(map(int, input().split())) for _ in range(n)]
