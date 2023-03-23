@@ -2,8 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="299d2f9d-6765-4857-9b0b-db33e52e4901" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/Baekjoon/minha/10830_행렬제곱.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Baekjoon/5639_이진검색트리.py" beforeDir="false" afterPath="$PROJECT_DIR$/Baekjoon/minha/5639_이진검색트리.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -46,9 +46,9 @@
       <recent name="$PROJECT_DIR$/../study/algorithm-python/algorithm_study" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/Baekjoon/minha" />
       <recent name="$PROJECT_DIR$/Programmers/minha" />
       <recent name="$PROJECT_DIR$/../ssafy/ssafy_algorithm" />
-      <recent name="$PROJECT_DIR$/Baekjoon/minha" />
       <recent name="$PROJECT_DIR$/../study/algorithm-python" />
       <recent name="$PROJECT_DIR$/../ssafy/ssafy_algorithm/practice" />
     </key>
@@ -129,7 +129,7 @@
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Baekjoon/5639_이진검색트리.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Baekjoon/minha/5639_이진검색트리.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
