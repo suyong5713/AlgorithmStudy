@@ -1,4 +1,3 @@
-import sys
 def dfs(row, col, depth):
     global answer
     for dir in range(4):
@@ -14,12 +13,9 @@ def dfs(row, col, depth):
 
 answer = 0
 d_row = [-1, 1, 0, 0]
-d_col = [0, 0, -1, 1]
+d_col = d_row[::-1]
 R, C = map(int, input().split())
 board = [list(input()) for _ in range(R)]
-history = set()
-history.add(board[0][0])
+history = set(board[0][0])
 dfs(0, 0, 1)
 print(answer)
-print()
-
