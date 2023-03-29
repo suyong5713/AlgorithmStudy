@@ -1,25 +1,28 @@
-def DFS(depth):
-    global answer
-    if depth == N:
-        answer += 1
-        return
-
-    for i in range(N):
-        row[depth] = i
-        if check(depth):
-            DFS(depth + 1)
-
-
-def check(depth):
-    for i in range(depth):
-        if row[depth] == row[i] or abs(row[depth] - row[i]) == depth - i:
-            return False
-    return True
-
-
 N = int(input())
 board = [[0] * N for _ in range(N)]
 answer = 0
-row = [0] * N
-DFS(0)
+def check(x, y):
+    for i in range(N):
+        if board[x][i] == 1:
+            return False
+        if board[i][y] == 1:
+            return False
+    for i in range(N):
+        for j in range(N):
+            if abs(x - i) == abs(y - j):
+                if board[i][j] == 1:
+                    return False
+    return True
+def dfs(cnt):
+    global answer
+    if cnt == N:
+        answer += 1
+        return
+    for i in range(N):
+        if check(cnt, i):
+            board[cnt][i] = 1
+            dfs(cnt + 1)
+            board[cnt][i] = 0
+
+dfs(0)
 print(answer)
